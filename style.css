@@ -1,0 +1,82 @@
+/*Style the entire page*/
+* {
+    box-sizing:border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Style the header*/
+.header {
+    background-color:rgb(129, 231, 231);
+    width: 40%;
+    margin: 0% 30%;
+    padding: 20px 50px 20px;
+    color: rgb(8, 56, 50);
+    font-size: 30px;
+    text-align: center;
+}
+  
+/* Clear floats after the header */
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Style the input field*/
+#inputField {
+    margin: 0;
+    border: none;
+    border-radius: 8px;
+    width: 90%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+
+/* Style the "Add" button */
+#addToDo {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 10%;
+    background: #5f92d4;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Remove the dots from list */
+ul {
+    list-style-type: none;
+    margin: 0 5%;
+    padding: 0; 
+    padding: 10px;
+}
+
+/*Style the list*/
+.items{
+        cursor: pointer;
+        position: relative;
+        font-size: 20px;
+        width: 40%;
+        padding: 20px;
+        padding-top: 0px;
+        margin: 0% 30%;
+        text-align: left;
+        background-color:rgb(129, 231, 231);    
+}
+
+/*Style the "Itmes left"*/
+#counter{
+        background-color:rgb(129, 231, 231);
+        width: 40%;
+        margin: 0% 30%;
+        padding: 20px 50px 40px;
+        color: rgb(39, 145, 136);
+        font-size: 30px;
+        text-align: center;
+}
+
+
+  
